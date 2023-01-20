@@ -1,8 +1,14 @@
 //Business Logic
 
-const beepBoop = function() {
-  
-}
+function beepBoop(n) {
+  const outputArr = [];
+  for (let i = 0; i <= n; i++) {
+    if (i === 1)
+      outputArr.push("Beep!");
+  }
+return outputArr
+};
+
   
 
 

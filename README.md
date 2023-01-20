@@ -17,8 +17,8 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Tests
 
-//Describe: beep()
-Test: "It should return users input"
+//Describe: beepboop()
+Test: "It should return beep with users entry of 1"
 Code: beep(1)
 Expected Output: 1
 
