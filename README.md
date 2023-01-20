@@ -17,10 +17,15 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Tests
 
-//Describe: beepboop()
+//Describe: beepboop()//
+
 Test: "It should return beep with users entry of 1"
 Code: beep(1)
-Expected Output: 1
+Expected Output: "Beep!"
+
+Test: "It should return with beep for all numbers that contain 1"
+Code: beep(17)
+Return: "Beep!"
 
 
 ## Setup/Installation Requirements
