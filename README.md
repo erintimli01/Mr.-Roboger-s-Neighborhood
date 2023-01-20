@@ -20,12 +20,16 @@ _{This is a detailed description of your application. Give as much detail as nee
 //Describe: beepboop()//
 
 Test: "It should return beep with users entry of 1"
-Code: beep(1)
+Code: beepBoop(1)
 Expected Output: "Beep!"
 
 Test: "It should return with beep for all numbers that contain 1"
-Code: beep(17)
+Code: beepBoop(17)
 Return: "Beep!"
+
+Test: "It should return bbop with users entry of 2"
+Code: beepBoop(2)
+Return: "Boop!"
 
 
 ## Setup/Installation Requirements
