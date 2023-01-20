@@ -17,6 +17,10 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Tests
 
+//Describe: beep()
+Test: "It should return users input"
+Code: beep(1)
+Expected Output: 1
 
 
 ## Setup/Installation Requirements
