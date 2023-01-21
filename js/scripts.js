@@ -20,7 +20,16 @@ return outputArr
     }
   
 
-
+function beep(num) {
+  const outputArray = num.split(" ");
+  let beep = 0;
+  outputArray.forEach(function(element) {
+    if (element.includes(1)) {
+      outputArray.push("Beep!")
+    }
+  });
+  return outputArray
+}
 
 
 
