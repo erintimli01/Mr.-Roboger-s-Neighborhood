@@ -2,18 +2,17 @@
 
 #### By _Erin Timlin_
 
-#### _{Brief description of application}_
+#### _This is an application that takes a number from the user and returns the values except any number that contains a 1, it will return "Beep!", for all number that contain a 2, it will return "Boop!" and for all numbers that contain a 3, it will return "Won't you be my neighbor?"_
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _HTML_
+* _JacaScript_
+
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_In addition to whats above, the substitution for the number 1 will apply unless there is a number 2 present and the substitution for the number 2 will apply unless there is a number 3._
 
 ## Tests
 
@@ -34,13 +33,10 @@ Return: "Boop!"
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+*_No set up required_
+*_Visit https://github.com/erintimli01/text-analyzer_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+
 
 ## Known Bugs
 

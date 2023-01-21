@@ -8,6 +8,16 @@ function beepBoop(num) {
   }
 return outputArr
     };
+
+    function beepBoop(num) {
+      let outputArr = [];
+      const element = i.toString();
+      for (let i = 0; i <= num; i++)
+        if (element.includes(1)); {
+          outputArr.push("Beep!");
+          return outputArr
+        };
+    }
   
 
 
