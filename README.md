@@ -53,8 +53,8 @@ Return: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Be
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs!_
+* 
 
 ## License
 

@@ -19,9 +19,6 @@ function beepBoop(num) {
 
 
 //UI Logic
-
-
-
 function handleFormSubmission() {
   event.preventDefault();
   document.querySelector("div#output").innerText = null;
@@ -29,7 +26,6 @@ function handleFormSubmission() {
   const neighbor = beepBoop(userInput);
   document.querySelector("div#output").append(neighbor);
 }
-
 
 window.addEventListener("load", function() {
   document.querySelector("form#neighborhood").addEventListener("submit", handleFormSubmission);
