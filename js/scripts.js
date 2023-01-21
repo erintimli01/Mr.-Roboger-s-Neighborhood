@@ -29,4 +29,4 @@ function handleFormSubmission() {
 
 window.addEventListener("load", function() {
   document.querySelector("form#neighborhood").addEventListener("submit", handleFormSubmission);
-})
+});
