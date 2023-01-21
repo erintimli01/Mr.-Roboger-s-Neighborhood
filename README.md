@@ -8,6 +8,7 @@
 
 * _HTML_
 * _JacaScript_
+* _CSS_
 
 
 ## Description
@@ -16,39 +17,33 @@ _In addition to what is above, the substitution for the number 1 will apply unle
 
 ## Tests
 
-//Describe: beepboop()//
+_Describe: beepboop()_
 
-Test: "It should return "beep" with users entry of 1"
-Code: beepBoop(1)
-Expected Output: "Beep!"
+_Test: "It should return "beep" with users entry of 1"_
+_Code: beepBoop(1)_
+_Expected Output: "Beep!"_
 
+_Test: "It should return "boop" with users entry of 2"_
+_Code: beepBoop(2)_
+_Return: "0, Beep!, Boop!"_
 
-Test: "It should return "boop" with users entry of 2"
-Code: beepBoop(2)
-Return: "0, Beep!, Boop!"
+_Test: "It should return "won't you be my neighbor?" with users entry of 3"_
+_Code: beepBoop(3)_
+_Return: "0, Beep!, Boop!, Won't you be my neighbor?"_
 
-Test: "It should return "won't you be my neighbor?" with users entry of 3"
-Code: beepBoop(3)
-Return: "0, Beep!, Boop!, Won't you be my neighbor?"
+_Test: "It should return with beep for all numbers that contain 1"_
+_Code: beepBoop(11)_
+_Return: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!_
 
-Test: "It should return with beep for all numbers that contain 1"
-Code: beepBoop(11)
-Return: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!
-
-Test: "The number 3 should take precedence over the number 2, and the number two should take precedence over the number 1 with multi-digit numbers"
-Code: beepBoop(12)
-Return: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!"
-
-
-
-
+_Test: "The number 3 should take precedence over the number 2, and the number two should take precedence over the number 1 with multi-digit numbers"_
+_Code: beepBoop(12)_
+_Return: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!"_
 
 
 ## Setup/Installation Requirements
 
 *_No set up required_
 *_Visit https://github.com/erintimli01/text-analyzer_
-
 
 
 ## Known Bugs
@@ -58,6 +53,8 @@ Return: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Be
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+[MIT](license.txt)
 
-Copyright (c) _date_ _author name(s)_
+_If you have any questions, conerns, or comments, please feel free to reach out to me at erintimlin@gmail.com_
+
+Copyright (c) _January 20, 2023_ _Erin Timlin_
