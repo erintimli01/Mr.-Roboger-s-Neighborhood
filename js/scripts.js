@@ -1,57 +1,36 @@
 //Business Logic
 
 function beepBoop(num) {
-  let outputArr = [];
-  for (let i = 0; i <= num; i++) {
-  if (1 === 0);
-      outputArr.push("Beep!");
-  }
-return outputArr
-    };
-
-    function beepBoop(num) {
       let outputArr = [];
-      const element = i.toString();
-      for (let i = 0; i <= num; i++)
-        if (element.includes(1)); {
+      for (let i = 0; i <= num; i++) {
+        const element = i.toString();
+        if (element.includes("3")) {
+          outputArr.push("Won't you be my neighbor?"); 
+        } else if (element.includes("2")) {
+          outputArr.push("Boop!");
+        }  else if (element.includes("1")) {
           outputArr.push("Beep!");
-          return outputArr
-        };
-    }
-  
-
-function beep(num) {
-  const outputArray = num.split(" ");
-  let beep = 0;
-  outputArray.forEach(function(element) {
-    if (element.includes(1)) {
-      outputArray.push("Beep!")
-    }
-  });
-  return outputArray
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        } else {
+          outputArr.push(element);
+        }
+      }
+      return outputArr.join(", ");
+    } 
 
 
 //UI Logic
 
+
+
 function handleFormSubmission() {
   event.preventDefault();
+  document.querySelector("div#output").innerText = null;
+  const userInput = parseInt(document.getElementById("number").value);
+  const neighbor = beepBoop(userInput);
+  document.querySelector("div#output").append(neighbor);
 }
 
+
 window.addEventListener("load", function() {
-  this.document.querySelector("form#neighborhood").addEventListener("submit", handleFormSubmission);
+  document.querySelector("form#neighborhood").addEventListener("submit", handleFormSubmission);
 });
