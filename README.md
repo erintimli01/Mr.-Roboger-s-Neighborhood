@@ -42,8 +42,8 @@ _Return: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, B
 
 ## Setup/Installation Requirements
 
-*_No set up required_
-*_Visit https://github.com/erintimli01/text-analyzer_
+*_Clone repo to your desktop_
+*_Open index.html in your browser_
 
 
 ## Known Bugs
